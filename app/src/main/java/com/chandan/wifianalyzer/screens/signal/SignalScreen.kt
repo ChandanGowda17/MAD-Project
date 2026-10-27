@@ -275,6 +275,14 @@ fun SignalScreen() {
         }
 
         item {
+            SignalGraph(
+                readings = (1..4).associateWith { corner ->
+                    cornerReadings[corner]?.rssi
+                }
+            )
+        }
+
+        item {
 
             Card(
                 modifier = Modifier.fillMaxWidth()

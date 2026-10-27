@@ -63,4 +63,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     implementation(libs.androidx.compose.material.icons.extended)
+
+    implementation(libs.vico.compose)
+    implementation(libs.vico.compose.m3)
 }
